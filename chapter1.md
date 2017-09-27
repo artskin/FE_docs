@@ -10,9 +10,10 @@
 
 ## 2.工作常用工具及配置相应环境。
 
+```asciidoc
 git
-
 node
+```
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+
 
