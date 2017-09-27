@@ -1,4 +1,4 @@
-# 利用Win10的ubuntu子系统，搭建前端自动化工具
+# Win10的ubuntu子系统，搭建前端自动化工具
 
 ## 一、Win10安装ubuntu子系统
 
@@ -26,8 +26,6 @@ nvm --version   //检查当前是否安装成功
 ```
 
 ### 2.安装Node.js
-
-
 
 ```bash
 nvm install v8.4.0  //安装node8.4.0
