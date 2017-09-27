@@ -9,6 +9,6 @@
   * [上线模板](mail/for-online.md)
   * [周报模板](mail/zhou-bao-mo-ban.md)
 * [3.开发工具](tools.md)
-  * [静态资源版本号-gulp插件修改](tools/gulp-rev-update.md)
+  * [gulp版本号插件修改](tools/gulp-rev-update.md)
   * [Win10安装ubuntu子系统](tools/win10-ubuntu-gulp.md)
 
