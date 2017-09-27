@@ -10,5 +10,11 @@
 
 ## 2.安装工作常用工具及配置相应环境。
 
+git
+
+node
+
+
+
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
