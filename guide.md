@@ -8,7 +8,7 @@
 
 打开[https://gitlab.ylb.net](https://gitlab.ylb.net)，用公司邮箱注册账号，完成后把账号发给你的入职导师把你加入到对应项目中。
 
-## 2.常用工具及配置相应环境。
+## 2.常用工具
 
 ```asciidoc
 git
@@ -16,6 +16,13 @@ node
 钉钉
 编辑器
 ```
+
+## 3.开发环境搭建
+
+1. 推荐mac
+2. windows方案如下：[Win10安装ubuntu子系统](/tools/win10-ubuntu-gulp.md)
+
+
 
 
 
