@@ -1,4 +1,4 @@
-# 入门
+# 入职指南
 
 入职时hr已经帮忙开好了钉钉（工作及时聊天软件）邮箱（）
 
@@ -13,8 +13,6 @@
 git
 
 node
-
-
 
 GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
 
