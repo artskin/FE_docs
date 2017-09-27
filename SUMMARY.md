@@ -11,4 +11,6 @@
 * [3.开发工具](tools.md)
   * [gulp版本号插件修改](tools/gulp-rev-update.md)
   * [Win10安装ubuntu子系统](tools/win10-ubuntu-gulp.md)
+* [API文档](api-docs.md)
+  * [Hybrid](api-docs/hybrid.md)
 
