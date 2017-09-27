@@ -4,8 +4,6 @@
 
 [Win10安装ubuntu子系统步骤](http://www.cnblogs.com/Jay-CFD/p/6067274.html)
 
-
-
 ## 二、Ubuntu安装Nodejs {#ubuntu更新安装nodejs}
 
 我们选择用NVM安装和管理nodejs。
@@ -15,14 +13,20 @@ nvm是一个开源的Node版本管理器，通过简单的bash脚本来管理、
 * 使用nvm安裝Node.js
 * 使用nvm无痛切换Node.js版本
 
-
-
 ### 1.安装nvm
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 ......
 nvm --version   //检查当前是否安装成功
+```
+
+### 2.安装Node.js
+
+```bash
+nvm install v8.4.0  //安装node8.4.0
+......
+node -v             //检查nodejs是否安装成功
 ```
 
 
