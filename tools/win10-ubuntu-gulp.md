@@ -29,5 +29,16 @@ nvm install v8.4.0  //安装node8.4.0
 node -v             //检查nodejs是否安装成功
 ```
 
+```
+nvm use 8.4.0 //切换版本
+nvm alias default 8.4.0  //设置默认版本：default -> 8.4.0 (-> v8.4.0)
+```
+
+### 3.磁盘跳转
+
+```
+cd /mnt/d/www/front    //切换到对应项目文件夹
+```
+
 
 
