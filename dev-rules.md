@@ -11,7 +11,7 @@
 
 1. h5分辨率范围：320 &lt; x &lt;720（pc打开显示720）；
 2. pc分辨率范围：970 &lt; x &lt;1200；
-3. pc兼容ie9以上（含ie9）。[http://caniuse.com/\#feat=cors](http://caniuse.com/#feat=cors)
+3. pc兼容ie8以上（含ie8）。[http://caniuse.com/\#feat=cors](http://caniuse.com/#feat=cors)
 
 ##  {#三-活动页面}
 
