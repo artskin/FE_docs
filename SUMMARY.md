@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [简介](README.md)
 * [入职指南](chapter1.md)
 * [1.开发要求](kai-fa-yao-qiu.md)
   * [活动开发](kai-fa-yao-qiu/huo-dong-kai-fa.md)
