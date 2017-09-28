@@ -13,4 +13,5 @@
   * [Win10安装ubuntu子系统](tools/win10-ubuntu-gulp.md)
 * [API文档](api-docs.md)
   * [Hybrid](api-docs/hybrid.md)
+  * [微信分享](api-docs/wei-xin-fen-xiang.md)
 
