@@ -16,7 +16,7 @@
 ```asciidoc
 Git
 Node
-钉钉
+钉钉：工作沟通，每天及时登录
 开发工具：Sublime，WebStorm，Atom
 ```
 
