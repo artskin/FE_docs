@@ -14,9 +14,9 @@
 ## 2.常用工具
 
 ```asciidoc
+钉钉：工作沟通，每天及时登录
 Git
 Node
-钉钉：工作沟通，每天及时登录
 开发工具：Sublime，WebStorm，Atom
 ```
 
