@@ -14,10 +14,10 @@
 ## 2.常用工具
 
 ```asciidoc
-git
-node
+Git
+Node
 钉钉
-开发工具
+开发工具：Sublime，WebStorm，Atom
 ```
 
 ## 3.开发环境搭建
