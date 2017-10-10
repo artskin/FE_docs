@@ -16,7 +16,7 @@
 ```asciidoc
 钉钉：工作沟通，每天及时登录
 Git：版本管理
-Node：项目编译
+Node：代码编译
 开发工具：Sublime，WebStorm，Atom
 ```
 
