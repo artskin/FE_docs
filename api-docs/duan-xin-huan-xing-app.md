@@ -24,45 +24,53 @@
 
 通过获取url参数定义相关页面跳转参数
 
-比如：http://www.yonglibao.com/?id = towhichpage
+比如：[http://www.yonglibao.com/?id](http://www.yonglibao.com/?id) = towhichpage
 
-		var id = that.GetQueryString\('towhichpage'\)\|\|'',
+```
+    var id = that.GetQueryString('towhichpage')||'',
 
-			native = '',
+        native = '',
 
-			topage = '',
+        topage = '',
 
-			id = '',
+        id = '',
 
-			number = '',
+        number = '',
 
-			title = ''
+        title = ''
 
-			if\(id == 'produky'\){//跳产品页
+        if(id == 'produky'){//跳产品页
+```
 
-				native = true;
+```
+            native = true;
 
-				topage = productDetail;
+            topage = productDetail;
 
-				id = id;
+            id = id;
 
-				number = 2;
+            number = 2;
 
-			}else if\(id == 'baidu'\){//跳百度页面
+        }else if(id == 'baidu'){//跳百度页面
+```
 
-				native = false;
+```
+            native = false;
 
-				topage = 'http://www.baidu.com';
+            topage = 'http://www.baidu.com';
 
-				title = '百度一下';
+            title = '百度一下';
 
-			}else if\(id == 'recharge'\){//跳充值页
+        }else if(id == 'recharge'){//跳充值页
+```
 
-				native = true;
+```
+            native = true;
 
-				topage = 'recharge';
+            topage = 'recharge';
 
-			}	
+        }    
+```
 
 （2）安卓端
 
