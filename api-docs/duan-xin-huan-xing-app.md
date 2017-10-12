@@ -24,7 +24,7 @@
 
 通过获取url参数定义相关页面跳转参数
 
-比如：[http://www.yonglibao.com/?id](http://www.yonglibao.com/?id) = towhichpage
+比如：[http://www.yonglibao.com/?](http://www.yonglibao.com/?id)towhichpage = produky
 
 ```
     var id = that.GetQueryString('towhichpage')||'',
@@ -40,36 +40,34 @@
         title = ''
 
         if(id == 'produky'){//跳产品页
-        
+
             native = true;
-    
+
             topage = productDetail;
-    
+
             id = id;
-            
+
             number = 2;
-            
+
         }else if(id == 'baidu'){//跳百度页面
-        
+
             native = false;
-            
+
             topage = 'http://www.baidu.com';
-            
+
             title = '百度一下';
-        
+
         }else if(id == 'recharge'){//跳充值页
-        
+
             native = true;
-            
+
             topage = 'recharge';
         }
 ```
 
 ```
-        
+
 ```
-
-
 
 （2）安卓端
 
@@ -114,6 +112,47 @@
 
         }
 ```
+
+
+
+## 2.scheme调用APP相关弹窗页面
+
+dialog  json 表
+
+| dialog参数表 |  |
+| :---: | :---: |
+| title | 标题 |
+| message | 内容 |
+| leftbuttontext | 左边按钮文字 |
+| rightbuttontext | 右边按钮文字 |
+| largebuttontext | 一个按钮文字 |
+| firstmessagetitle | 金额描述 |
+| firstmessagecomtent | 金额 |
+| secondmessagetitle | 金额描述 |
+| secondmessagecontent | 金额 |
+| extraclicktext | 继续刷新 |
+| explaintext | 继续刷新几天可以免费变现 |
+| image | icon（未开发完毕，有待完善） |
+
+![](/assets/import.png)
+
+| type类型 |  |
+| :---: | :--- |
+| 1 | mes+leftbutton+rightbutton |
+| 2 | mes+largebutton |
+| 3 | title+mes+largebutton |
+| 4 | icon+mes+largebutton |
+| 5 | firstmessagetitle+firstmessagecontent+secondmessagetitle+secondmessagecontent+explaintext+leftbutton+rightbutton--------金额蓝色，两个按钮 |
+| 6 | title+firstmessagetitle+firstmessagecontent+secondmessagetitle+secondmessagecontent+explaintext+leftbutton+rightbutton---------标题+金额蓝色+两个按钮 |
+| 7 | title+mes+leftbutton+rightbutton |
+| 8 | firstmessagetitle+firstmessagecontent+secondmessagetitle+secondmessageconten+explaintext+leftbutton+rightbutton---------金额橘色+两个按钮 |
+| 9 | mes+largebutton-----下划线刷新 |
+
+
+
+
+
+
 
 
 
