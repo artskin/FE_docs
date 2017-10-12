@@ -24,19 +24,41 @@
 
 （2）安卓端
 
+```js
+        if (native == 'false') {
+
+            window.location.href = 'yonglibao://JsInvokeAppScope:10025/forward?{"type":"web","topage":"'+ topage +'","UIHeader":{"title":"'+title+'"}}"';
+
+        }else{
+
+            if(str != ""){
+
+                window.location.href ='yonglibao://JsInvokeAppScope:10025/forward?{"type":"native","topage": "'+topage+'","params":{"'+id+'" : "'+number+'"}}';
+
+            }else{
+
+                window.location.href = 'yonglibao://JsInvokeAppScope:10025/forward?{"type":"native","topage":"'+ topage +'"}';                
+
+            }
+
+        }
+```
+
+（3）ios终端
+
 			if \(native == 'false'\) {
 
-				window.location.href = 'yonglibao://JsInvokeAppScope:10025/forward?{"type":"web","topage":"'+ topage +'","UIHeader":{"title":"'+title+'"}}"';
+				window.location.href = 'yonglibao://JsInvokeAppScope?port=10025&forward={"type":"web","topage":"'+ topage +'","UIHeader":{"title":"百度一下"}}"';
 
 			}else{
 
 				if\(str != ""\){
 
-					window.location.href ='yonglibao://JsInvokeAppScope:10025/forward?{"type":"native","topage": "'+topage+'","params":{"'+id+'" : "'+number+'"}}';
+					window.location.href ='yonglibao://JsInvokeAppScope?port=10025&forward={"type":"native","topage": "'+topage+'","params":{"'+id+'" : "'+number+'"}}';
 
 				}else{
 
-					window.location.href = 'yonglibao://JsInvokeAppScope:10025/forward?{"type":"native","topage":"'+ topage +'"}';				
+					window.location.href = 'yonglibao://JsInvokeAppScope?port=10025&forward={"type":"native","topage":"'+ topage +'"}';				
 
 				}
 
@@ -44,7 +66,9 @@
 
 
 
-（3）ios终端
+
+
+
 
 
 
