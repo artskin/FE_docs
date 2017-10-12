@@ -15,4 +15,5 @@
   * [Hybrid](api-docs/hybrid.md)
   * [微信分享](api-docs/wx-share.md)
   * [积分商城](api-docs/shop.md)
+  * [短信唤醒APP](api-docs/duan-xin-huan-xing-app.md)
 
