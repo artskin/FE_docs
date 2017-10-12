@@ -22,6 +22,48 @@
 | moneyRecord | 资金明细 |
 |  |  |
 
+通过获取url参数定义相关页面跳转参数
+
+比如：http://www.yonglibao.com/?id = towhichpage
+
+		var id = that.GetQueryString\('towhichpage'\)\|\|'',
+
+			native = '',
+
+			topage = '',
+
+			id = '',
+
+			number = '',
+
+			title = ''
+
+			if\(id == 'produky'\){//跳产品页
+
+				native = true;
+
+				topage = productDetail;
+
+				id = id;
+
+				number = 2;
+
+			}else if\(id == 'baidu'\){//跳百度页面
+
+				native = false;
+
+				topage = 'http://www.baidu.com';
+
+				title = '百度一下';
+
+			}else if\(id == 'recharge'\){//跳充值页
+
+				native = true;
+
+				topage = 'recharge';
+
+			}	
+
 （2）安卓端
 
 ```js
@@ -46,31 +88,25 @@
 
 （3）ios终端
 
-			if \(native == 'false'\) {
+```
+        if (native == 'false') {
 
-				window.location.href = 'yonglibao://JsInvokeAppScope?port=10025&forward={"type":"web","topage":"'+ topage +'","UIHeader":{"title":"百度一下"}}"';
+            window.location.href = 'yonglibao://JsInvokeAppScope?port=10025&forward={"type":"web","topage":"'+ topage +'","UIHeader":{"title":"百度一下"}}"';
 
-			}else{
+        }else{
 
-				if\(str != ""\){
+            if(str != ""){
 
-					window.location.href ='yonglibao://JsInvokeAppScope?port=10025&forward={"type":"native","topage": "'+topage+'","params":{"'+id+'" : "'+number+'"}}';
+                window.location.href ='yonglibao://JsInvokeAppScope?port=10025&forward={"type":"native","topage": "'+topage+'","params":{"'+id+'" : "'+number+'"}}';
 
-				}else{
+            }else{
 
-					window.location.href = 'yonglibao://JsInvokeAppScope?port=10025&forward={"type":"native","topage":"'+ topage +'"}';				
+                window.location.href = 'yonglibao://JsInvokeAppScope?port=10025&forward={"type":"native","topage":"'+ topage +'"}';                
 
-				}
+            }
 
-			}
-
-
-
-
-
-
-
-
+        }
+```
 
 
 
