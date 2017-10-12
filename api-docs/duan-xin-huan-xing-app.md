@@ -169,3 +169,15 @@ RainbowBridge.callMethod('JsInvokeAppScope','showCustomDialog',showdata,function
 
 
 
+
+
+# 3.h5调用APP框架请求获取数据
+
+请求请求参数
+
+| api |  |
+| :--- | :--- |
+|  |  |
+
+
+
