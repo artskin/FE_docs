@@ -113,14 +113,13 @@
         }
 ```
 
-
-
 ## 2.scheme调用APP相关弹窗页面
 
 dialog  json 表
 
 | dialog参数表 |  |
 | :---: | :---: |
+| type | 类型（必有参数） |
 | title | 标题 |
 | message | 内容 |
 | leftbuttontext | 左边按钮文字 |
@@ -133,6 +132,8 @@ dialog  json 表
 | extraclicktext | 继续刷新 |
 | explaintext | 继续刷新几天可以免费变现 |
 | image | icon（未开发完毕，有待完善） |
+
+不同类型示例图
 
 ![](/assets/import.png)
 
@@ -150,9 +151,21 @@ dialog  json 表
 
 
 
+# example
 
+	var showdata ={
 
+		"type": 3, 
 
+		"title": "刷新成功",
+
+		"message": "请至个人中心查看余额",
+
+	};
+
+	RainbowBridge.callMethod\('JsInvokeAppScope','showCustomDialog',showdata,function\(\){
+
+	}\)
 
 
 
