@@ -40,37 +40,36 @@
         title = ''
 
         if(id == 'produky'){//跳产品页
-```
-
-```
+        
             native = true;
-
+    
             topage = productDetail;
-
+    
             id = id;
-
+            
             number = 2;
-
+            
         }else if(id == 'baidu'){//跳百度页面
-```
-
-```
+        
             native = false;
-
+            
             topage = 'http://www.baidu.com';
-
+            
             title = '百度一下';
-
+        
         }else if(id == 'recharge'){//跳充值页
-```
-
-```
+        
             native = true;
-
+            
             topage = 'recharge';
-
-        }    
+        }
 ```
+
+```
+        
+```
+
+
 
 （2）安卓端
 
