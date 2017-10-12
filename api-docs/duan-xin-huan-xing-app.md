@@ -149,23 +149,23 @@ dialog  json 表
 | 8 | firstmessagetitle+firstmessagecontent+secondmessagetitle+secondmessageconten+explaintext+leftbutton+rightbutton---------金额橘色+两个按钮 |
 | 9 | mes+largebutton-----下划线刷新 |
 
-
-
 # example
 
-	var showdata ={
+```
+var showdata ={
 
-		"type": 3, 
+    "type": 3, 
 
-		"title": "刷新成功",
+    "title": "刷新成功",
 
-		"message": "请至个人中心查看余额",
+    "message": "请至个人中心查看余额",
 
-	};
+};
 
-	RainbowBridge.callMethod\('JsInvokeAppScope','showCustomDialog',showdata,function\(\){
+RainbowBridge.callMethod('JsInvokeAppScope','showCustomDialog',showdata,function(){
 
-	}\)
+})
+```
 
 
 
