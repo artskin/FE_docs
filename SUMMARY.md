@@ -15,4 +15,6 @@
   * [Hybrid](api-docs/hybrid.md)
   * [微信分享](api-docs/wx-share.md)
   * [积分商城](api-docs/shop.md)
+* [App-h5](app-h5.md)
+  * [catalogue](app-h5/catalogue.md)
 
