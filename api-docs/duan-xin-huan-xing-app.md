@@ -205,9 +205,10 @@ var calldata = {
     "params": {}
 
 };
+RainbowBridge.callMethod('JsInvokeAppScope','callInterface',calldata,function(result){
+
+});
 ```
 
- RainbowBridge.callMethod\('JsInvokeAppScope','callInterface',calldata,function\(result\){
 
-}\);
 
