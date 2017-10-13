@@ -197,21 +197,17 @@ request:{
 
 ## example
 
-	var calldata = {
+```
+var calldata = {
 
-		"api": "Deposit/syncAccountBalance",
+    "api": "Deposit/syncAccountBalance",
 
-		"params": {}
+    "params": {}
 
-	};
+};
+```
 
-RainbowBridge.callMethod\('JsInvokeAppScope','callInterface',calldata,function\(result\){
+ RainbowBridge.callMethod\('JsInvokeAppScope','callInterface',calldata,function\(result\){
 
 }\);
-
-
-
-
-
-
 
