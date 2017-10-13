@@ -1,4 +1,4 @@
-## 1.短信唤醒APP
+# 1.短信唤醒APP
 
 （1）topage对应页面app中页面跳转参数
 
@@ -113,7 +113,7 @@
         }
 ```
 
-## 2.scheme调用APP相关弹窗页面
+# 2.scheme调用APP相关弹窗页面
 
 dialog  json 表
 
