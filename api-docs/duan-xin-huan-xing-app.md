@@ -181,15 +181,37 @@ RainbowBridge.callMethod('JsInvokeAppScope','showCustomDialog',showdata,function
 
 request:{
 
-	"api": "user/login",
+```
+"api": "user/login",
 
-	"params": {
+"params": {
 
-		"phone": "15221602528",
+    "phone": "15221602528",
 
-		"password": "123456"
-
-	}
+    "password": "123456"
 
 }
+```
+
+}
+
+## example
+
+	var calldata = {
+
+		"api": "Deposit/syncAccountBalance",
+
+		"params": {}
+
+	};
+
+RainbowBridge.callMethod\('JsInvokeAppScope','callInterface',calldata,function\(result\){
+
+}\);
+
+
+
+
+
+
 
