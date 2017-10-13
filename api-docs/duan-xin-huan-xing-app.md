@@ -167,17 +167,29 @@ RainbowBridge.callMethod('JsInvokeAppScope','showCustomDialog',showdata,function
 })
 ```
 
-
-
-
-
 # 3.h5调用APP框架请求获取数据
 
 请求请求参数
 
-| api |  |
-| :--- | :--- |
-|  |  |
+| api | 后台接口api |
+| :---: | :---: |
+| params | 请求该接口的参数 |
 
+统一请求有waitting等待框，请求成功后消失，请求成功后台返回的整个json回调给h5
 
+请求参数格式
+
+request:{
+
+	"api": "user/login",
+
+	"params": {
+
+		"phone": "15221602528",
+
+		"password": "123456"
+
+	}
+
+}
 
